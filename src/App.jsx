@@ -1,5 +1,11 @@
+import HomeScreen from "./screens/home";
+
 function App() {
-  return <div>news</div>;
+  return (
+    <div className="parent">
+      <HomeScreen />
+    </div>
+  )
 }
 
 export default App;
