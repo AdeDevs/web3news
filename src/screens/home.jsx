@@ -3,6 +3,9 @@ import Menu from "../assets/open-menu.png"
 import Logo from "../assets/logo.png"
 import Hero from "../assets/desktopHero.jpg"
 import Mobile from "../assets/mobileHero.jpg"
+import One from "../assets/image-retro-pcs.jpg"
+import Two from "../assets/image-top-laptops.jpg"
+import Three from "../assets/image-gaming-growth.jpg"
 
 function HomeScreen() {
     return (
@@ -53,7 +56,32 @@ function HomeScreen() {
                 </div>
             </main>
 
-            <footer></footer>
+            <footer>
+                <div>
+                    <img src={One} alt="dummy" />
+                    <section>
+                        <h1>01</h1>
+                        <h2>Reviving Retro PCs</h2>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </section>
+                </div>
+                <div>
+                    <img src={Two} alt="dummy" />
+                    <section>
+                        <h1>02</h1>
+                        <h2>Top 10 Laptops of 2022</h2>
+                        <p>Our best nicks for various needs and budgets.</p>
+                    </section>
+                </div>
+                <div>
+                    <img src={Three} alt="dummy" />
+                    <section>
+                        <h1>03</h1>
+                        <h2>The Growth of Gaming</h2>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </section>
+                </div>
+            </footer>
         </div>
     )
 }
